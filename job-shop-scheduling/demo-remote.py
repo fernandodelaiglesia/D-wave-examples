@@ -28,8 +28,8 @@ import os
 os.environ['AWS_DEFAULT_REGION'] = "us-west-2"
 
 # Please enter the S3 bucket you created during onboarding in the code below
-my_bucket = f"amazon-braket-amazon-braket-fernando" # the name of the bucket
-my_prefix = "DwaverTest" # the name of the folder in the bucket
+my_bucket = f"yourbacket" # the name of the bucket
+my_prefix = "yourfolder" # the name of the folder in the bucket
 s3_folder = (my_bucket, my_prefix)
 
 device = AwsDevice("arn:aws:braket:::device/qpu/d-wave/DW_2000Q_6")
